@@ -1,6 +1,6 @@
 const github = new GitHub;
 const ui = new UI;
-github.getUser("t3rkecorejz")
+github.getUser("Nikoljka")
         .then(data => {
             if(data.profile.message === 'Not Found') {
                 ui.showAlert('User not found!', 'alert alert-danger')
